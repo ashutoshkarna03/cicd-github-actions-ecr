@@ -1,0 +1,26 @@
+{
+  "name": "cicd-github-actions-ecr",
+  "version": "1.0.0",
+  "description": "A simple demonstration of setting up CI/CD pipelines using Github Actions and AWS Elastic Container Registry Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashutoshkarna03/cicd-github-actions-ecr.git"
+  },
+  "keywords": [
+    "ecr"
+  ],
+  "author": "Ashutosh Karna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashutoshkarna03/cicd-github-actions-ecr/issues"
+  },
+  "homepage": "https://github.com/ashutoshkarna03/cicd-github-actions-ecr#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
