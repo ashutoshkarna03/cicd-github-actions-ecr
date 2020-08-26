@@ -15,7 +15,7 @@ after_success:
   - docker --version  # document the version travis is using
   - pip install --user awscli # install aws cli w/o sudo
   - export PATH=$PATH:$HOME/.local/bin # put aws in the path
-  - eval $(aws ecr get-login --region us-east-2) #needs AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY envvars
+  - $(aws ecr get-login --no-include-email --region us-east-2) #needs AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY envvars
   - docker build -t travis .
   - docker tag travis:latest 346202198848.dkr.ecr.us-east-2.amazonaws.com/travis:latest
   - docker push 346202198848.dkr.ecr.us-east-2.amazonaws.com/travis:latest
