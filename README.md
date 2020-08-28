@@ -1,2 +1,2 @@
 # cicd-github-actions-ecr
-A simple demonstration of setting up CI/CD pipelines using Github Actions and AWS Elastic Container Registry Service
+A simple demonstration of setting up CI/CD pipelines using Github Actions and AWS Elastic Container Registry Service. Also added Travis CI now.
