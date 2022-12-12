@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/ashutoshkarna03/cicd-github-actions-ecr#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
